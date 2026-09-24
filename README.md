@@ -18,7 +18,7 @@ The results showed that *hour of day was the most important feature* in the mode
 
 The SHAP beeswarm plot also showed that the effect of a feature depends on its value. For example, different hours of the day could either increase or decrease predicted electricity demand rather than having one constant effect.
 
-For the local prediction, the model predicted about *19,390 MW. The largest factor pushing this prediction higher was **hour of day (17), which increased the prediction by about **2,862 MW. A temperature of * *85°F* also increased it by about *1,133 MW, while humidity contributed about * *278 MW*. Dew point and wind speed slightly lowered the prediction.
+For the local prediction, the model predicted about **19,390 MW**. The largest factor pushing this prediction higher was **hour of day (17)**, which increased the prediction by about **2,862 MW**. A temperature of **85°F** also increased it by about 1,133 MW, while humidity contributed about **278 MW**. **Dew point and wind speed slightly lowered the prediction.**
 
 Overall, the global and local SHAP results told a similar story: *time of day was the strongest driver of the model's electricity demand predictions, while weather conditions also played an important role.*
 
